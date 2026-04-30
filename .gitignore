@@ -1,0 +1,29 @@
+# Restricted CFPS-derived data. Do not publish these files on GitHub.
+*.dta
+_tmp/
+data/raw/
+data/derived/
+
+# Local machine configuration.
+config_local.do
+.env
+
+# Stata and analysis outputs generated locally.
+*.log
+*.smcl
+*.gph
+*.ster
+*_log.txt
+stata_results_*.json
+
+# Manuscript drafts and local writing files are kept out of the code release.
+*.docx
+*.doc
+*.pdf
+
+# OS/editor/runtime noise.
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.pytest_cache/
