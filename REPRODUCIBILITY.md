@@ -32,7 +32,7 @@ Edit `config_local.do`:
 Run the audited workflow from the repository root:
 
 ```stata
-do code/stata/00_master.do
+do code/stata/00_run_all.do
 ```
 
 The master script calls:
