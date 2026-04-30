@@ -18,7 +18,7 @@ All `.dta` files and `_tmp/` contents should appear as ignored, not staged.
 
 ```bash
 git add .gitignore README.md DATA_AVAILABILITY.md REPRODUCIBILITY.md CITATION.cff LICENSE
-git add *.do config_template.do docs metadata scripts
+git add RELEASE_MANIFEST.md config_template.do code docs metadata scripts
 ```
 
 4. Review the staged files:
@@ -31,7 +31,7 @@ git diff --cached --stat
 5. Commit and push:
 
 ```bash
-git commit -m "Prepare CFPS replication package for public release"
+git commit -m "Organize SCI-compliant CFPS replication package"
 git branch -M main
 git remote add origin https://github.com/TaroBro/cfps-inequality-aspiration-replication.git
 git push -u origin main
