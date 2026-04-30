@@ -1,0 +1,6 @@
+file,rows,columns,bytes,public_release_decision,reason
+analysis_final_dataset_v2.dta,7840,60,2694664,do_not_publish,CFPS or CFPS-derived data governed by CFPS Data User Agreement
+gini_dataset_v2.dta,128,6,11730,do_not_publish,CFPS or CFPS-derived data governed by CFPS Data User Agreement
+person_cleaned.dta,7294,49,2940191,do_not_publish,CFPS or CFPS-derived data governed by CFPS Data User Agreement
+person_cleaned_v2.dta,7840,28,1819624,do_not_publish,CFPS or CFPS-derived data governed by CFPS Data User Agreement
+provyr_panel_v3.dta,7840,42,2338184,do_not_publish,CFPS or CFPS-derived data governed by CFPS Data User Agreement
