@@ -1,68 +1,87 @@
 # CFPS Inequality and Educational Aspiration Replication Package
 
-This repository contains Stata code and reproducibility documentation for an
-analysis of provincial income inequality and educational aspiration dispersion
-using China Family Panel Studies (CFPS) data.
+This repository is an SCI-style replication package for a study of provincial
+income inequality and educational aspiration dispersion using the China Family
+Panel Studies (CFPS).
 
-## Important Data Notice
+The repository is intentionally code-first. It shares the audited analysis
+workflow, metadata, and data-access instructions, but it does not share CFPS
+microdata or CFPS-derived Stata datasets.
 
-The local `.dta` files in this working directory are derived from CFPS. They are
-not included in the public release. The CFPS Data User Agreement prohibits
-redistributing CFPS data, in original or modified form, on journal websites or
-third-party platforms. GitHub is a third-party platform, so this repository is
-structured as a compliant replication package: code, metadata, and instructions
-are public; CFPS-derived data remain private.
+## Data Access And Compliance
 
-See [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) for the recommended manuscript
-statement and instructions for obtaining the source data from the official CFPS
-platform.
+CFPS data are governed by the CFPS Data User Agreement. Because the agreement
+does not permit redistribution of CFPS data in original or modified form on
+journal websites or third-party platforms, the `.dta` files used locally are not
+included in this public repository.
 
-## Repository Contents
+See [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) for the manuscript-ready data
+availability statement and official CFPS access route.
 
-- `analysis_v3.do`: builds cleaned individual-level files, provincial Gini
-  measures, and province-year analysis inputs from authorized local CFPS data.
-- `analysis_v4.do`: runs the final robustness, interaction, subgroup, and
-  quantile-regression analyses.
-- `analysis_v2.do`: earlier analysis version retained for provenance.
-- `check_*.do`, `explore_2022_vars.do`, `find_aspiration_vars.do`: exploratory
-  scripts used to inspect CFPS variables.
-- `config_template.do`: local path template. Copy it to `config_local.do` before
-  running the Stata scripts.
-- `metadata/`: schema-level metadata generated from local analysis files. It
-  does not contain row-level CFPS data.
-- `scripts/validate_release.py`: release hygiene checker for accidental data
-  leakage and hard-coded local paths.
+## Repository Structure
 
-## Quick Start
+```text
+.
+|-- README.md
+|-- DATA_AVAILABILITY.md
+|-- REPRODUCIBILITY.md
+|-- RELEASE_MANIFEST.md
+|-- CITATION.cff
+|-- LICENSE
+|-- config_template.do
+|-- code/
+|   |-- stata/
+|   |   |-- 00_master.do
+|   |   |-- 01_build_analysis_data.do
+|   |   `-- 02_run_final_models.do
+|   |-- exploratory/
+|   `-- legacy/
+|-- docs/
+|-- metadata/
+`-- scripts/
+```
 
-1. Apply for and download CFPS data from the official CFPS platform.
+## Reproduce The Analysis
+
+1. Obtain authorized CFPS data from the official CFPS platform.
 2. Copy `config_template.do` to `config_local.do`.
 3. Edit `config_local.do` so `CFPS` points to the local CFPS root directory and
    `OUTDIR` points to this repository.
-4. In Stata, run:
+4. From the repository root, run:
 
 ```stata
-do analysis_v3.do
-do analysis_v4.do
+do code/stata/00_master.do
 ```
 
-5. Before publishing to GitHub, run:
+5. Before depositing or updating the public repository, run:
 
 ```bash
 python scripts/validate_release.py
 ```
 
+## Main Workflow
+
+- `code/stata/01_build_analysis_data.do` reads authorized CFPS source files,
+  cleans the analytic sample, computes province-year Gini coefficients, and
+  constructs local CFPS-derived analysis files.
+- `code/stata/02_run_final_models.do` runs quantile regressions, interaction
+  models, subgroup analyses, age-sample checks, directional-deviation models,
+  and minimal/bootstrap robustness checks.
+- `metadata/data_dictionary.csv` provides variable-level metadata generated from
+  the local analysis files. It contains no row-level records.
+
 ## Requirements
 
-- Stata with standard commands used in the scripts.
-- `estout` / `esttab` for regression table export.
-- Python 3 for the release validation helper.
+- Stata.
+- Stata package `estout` / `esttab` for table export.
+- Python 3 for release validation.
+- Authorized local access to CFPS 2014, 2016, 2018, 2020, and 2022 data.
 
 ## License
 
-The code and documentation in this repository are released under the MIT
-License. No license is granted for CFPS data or CFPS-derived analysis datasets;
-those remain governed by the CFPS Data User Agreement.
+Code and documentation are released under the MIT License. No license is granted
+for CFPS data or CFPS-derived analysis datasets; those remain governed by the
+CFPS Data User Agreement.
 
 ## Data Citation
 
