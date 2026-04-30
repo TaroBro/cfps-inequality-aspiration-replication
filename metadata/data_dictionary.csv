@@ -1,0 +1,186 @@
+file,file_rows,file_columns,variable_name,storage_dtype,variable_label,nonmissing_count,missing_count
+analysis_final_dataset_v2.dta,7840,60,pid,float64,个人ID,7840,0
+analysis_final_dataset_v2.dta,7840,60,fid,float64,2014年家庭样本编码,7840,0
+analysis_final_dataset_v2.dta,7840,60,provcode,float64,2014年省国标码,7840,0
+analysis_final_dataset_v2.dta,7840,60,province,object,,7840,0
+analysis_final_dataset_v2.dta,7840,60,year,float64,,7840,0
+analysis_final_dataset_v2.dta,7840,60,urban,float64,,7840,0
+analysis_final_dataset_v2.dta,7840,60,gender,float64,,7840,0
+analysis_final_dataset_v2.dta,7840,60,birth_y,float64,,7840,0
+analysis_final_dataset_v2.dta,7840,60,age,float64,,7840,0
+analysis_final_dataset_v2.dta,7840,60,edu_asp_years,float64,Expected Education (years),7840,0
+analysis_final_dataset_v2.dta,7840,60,edu_years,float64,,7490,350
+analysis_final_dataset_v2.dta,7840,60,p_income,float64,,7840,0
+analysis_final_dataset_v2.dta,7840,60,log_income,float64,,7840,0
+analysis_final_dataset_v2.dta,7840,60,gini_prov,float64,Provincial Gini (per-capita income),7811,29
+analysis_final_dataset_v2.dta,7840,60,gini_std,float64,Standardized Gini (z-score),7811,29
+analysis_final_dataset_v2.dta,7840,60,gini_sq,float64,,7811,29
+analysis_final_dataset_v2.dta,7840,60,asp_polar,float64,Aspiration Polarization |asp_i - mean_provyr|,7840,0
+analysis_final_dataset_v2.dta,7840,60,asp_dev,float64,Aspiration Deviation from Provincial Mean,7840,0
+analysis_final_dataset_v2.dta,7840,60,asp_mean_provyr,float64,,7840,0
+analysis_final_dataset_v2.dta,7840,60,asp_sd_provyr,float64,,7835,5
+analysis_final_dataset_v2.dta,7840,60,N_inc,float64,,7811,29
+analysis_final_dataset_v2.dta,7840,60,urban14,float64,基于国家统计局资料的城乡分类,4151,3689
+analysis_final_dataset_v2.dta,7840,60,cfps_birthy,float64,出生年份,5507,2333
+analysis_final_dataset_v2.dta,7840,60,cfps_gender,float64,性别,5507,2333
+analysis_final_dataset_v2.dta,7840,60,cfps2014eduy,float64,CFPS2014个人问卷受访者已完成的受教育年限,3987,3853
+analysis_final_dataset_v2.dta,7840,60,qc201,float64,您期望的受教育程度,7840,0
+analysis_final_dataset_v2.dta,7840,60,income,float64,所有工作总收入,5507,2333
+analysis_final_dataset_v2.dta,7840,60,urban16,float64,基于国家统计局资料的城乡分类,1356,6484
+analysis_final_dataset_v2.dta,7840,60,cfps2016eduy,float64,CFPS2016个人问卷受访者已完成的受教育年限,1170,6670
+analysis_final_dataset_v2.dta,7840,60,urban18,float64,2018年村居城乡分类：基于国家统计局资料定义,882,6958
+analysis_final_dataset_v2.dta,7840,60,emp_income,float64,过去12个月所有工作（主要工作+一般工作）的税后工资性收入,2333,5507
+analysis_final_dataset_v2.dta,7840,60,cfps2018eduy,float64,CFPS2018个人问卷受访者已完成的受教育年限,882,6958
+analysis_final_dataset_v2.dta,7840,60,urban20,float64,基于国家统计局资料的城乡分类,775,7065
+analysis_final_dataset_v2.dta,7840,60,cfps2020eduy,float64,CFPS2020个人问卷受访者已完成的受教育年限,775,7065
+analysis_final_dataset_v2.dta,7840,60,urban22,float64,基于国家统计局资料的城乡分类,676,7164
+analysis_final_dataset_v2.dta,7840,60,cfps2022eduy,float64,CFPS2022个人问卷受访者已完成的受教育年限,676,7164
+analysis_final_dataset_v2.dta,7840,60,mean_inc,float64,,7811,29
+analysis_final_dataset_v2.dta,7840,60,sd_inc,float64,,7811,29
+analysis_final_dataset_v2.dta,7840,60,asp_n_provyr,float64,,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_m1,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_m2,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_m3,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_m4,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_m5,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_m6,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_sd_m1,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_sd_m2,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_sd_m3,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_het_urban,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_het_rural,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_het_male,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_het_female,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_het_lowedu,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_het_highedu,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_rob_a,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_rob_b,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_rob_c,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_rob_d,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_rob_e,int8,esample() from estimates store,7840,0
+analysis_final_dataset_v2.dta,7840,60,_est_rob_f,int8,esample() from estimates store,7840,0
+gini_dataset_v2.dta,128,6,provcode,float64,省国标码,128,0
+gini_dataset_v2.dta,128,6,year,float64,,128,0
+gini_dataset_v2.dta,128,6,gini_prov,float64,,128,0
+gini_dataset_v2.dta,128,6,mean_inc,float64,,128,0
+gini_dataset_v2.dta,128,6,sd_inc,float64,,128,0
+gini_dataset_v2.dta,128,6,N_inc,float64,,128,0
+person_cleaned.dta,7294,49,pid,float64,个人ID,7294,0
+person_cleaned.dta,7294,49,fid,float64,2014年家庭样本编码,7294,0
+person_cleaned.dta,7294,49,provcode,float64,2014年省国标码,7294,0
+person_cleaned.dta,7294,49,urban14,float64,基于国家统计局资料的城乡分类,2564,4730
+person_cleaned.dta,7294,49,cfps_birthy,float64,出生年份,4777,2517
+person_cleaned.dta,7294,49,cfps_gender,float64,性别,4777,2517
+person_cleaned.dta,7294,49,qp201,float64,健康状况,7294,0
+person_cleaned.dta,7294,49,cfps2014edu,float64,CFPS2014个人问卷受访者已完成的最高学历,2564,4730
+person_cleaned.dta,7294,49,cfps2014eduy,float64,CFPS2014个人问卷受访者已完成的受教育年限,2461,4833
+person_cleaned.dta,7294,49,qea204,float64,与配偶/同伴如何认识,7294,0
+person_cleaned.dta,7294,49,qm1001,float64,子女善待父母,2564,4730
+person_cleaned.dta,7294,49,qm1002,float64,子女达成父母心愿,2564,4730
+person_cleaned.dta,7294,49,qm1003,float64,儿子和父母住在一起,2564,4730
+person_cleaned.dta,7294,49,qm1004,float64,至少生一个儿子,2564,4730
+person_cleaned.dta,7294,49,qm1005,float64,光宗耀祖,2564,4730
+person_cleaned.dta,7294,49,qm1006,float64,回家探望父母,2564,4730
+person_cleaned.dta,7294,49,qp101,float64,当前身高（厘米）,7294,0
+person_cleaned.dta,7294,49,income,float64,所有工作总收入,4777,2517
+person_cleaned.dta,7294,49,year,float64,,7294,0
+person_cleaned.dta,7294,49,urban,float64,,7294,0
+person_cleaned.dta,7294,49,gender,float64,,7294,0
+person_cleaned.dta,7294,49,birth_y,float64,,7294,0
+person_cleaned.dta,7294,49,edu_asp,float64,,7294,0
+person_cleaned.dta,7294,49,edu_years,float64,,6819,475
+person_cleaned.dta,7294,49,hh_size,float64,,0,7294
+person_cleaned.dta,7294,49,urban16,float64,基于国家统计局资料的城乡分类,2213,5081
+person_cleaned.dta,7294,49,cfps2016edu,float64,CFPS2016个人问卷受访者已完成的最高学历,2102,5192
+person_cleaned.dta,7294,49,cfps2016eduy,float64,CFPS2016个人问卷受访者已完成的受教育年限,1841,5453
+person_cleaned.dta,7294,49,urban18,float64,2018年村居城乡分类：基于国家统计局资料定义,1266,6028
+person_cleaned.dta,7294,49,emp_income,float64,过去12个月所有工作（主要工作+一般工作）的税后工资性收入,2517,4777
+person_cleaned.dta,7294,49,qm101m,float64,我不比别人差,1266,6028
+person_cleaned.dta,7294,49,qm102m,float64,我有许多好品质,1266,6028
+person_cleaned.dta,7294,49,qm103m,float64,我是一个失败者,1266,6028
+person_cleaned.dta,7294,49,qm104m,float64,我能把事情做好,1266,6028
+person_cleaned.dta,7294,49,qm105m,float64,我值得自豪的地方不多,1266,6028
+person_cleaned.dta,7294,49,qm106m,float64,我对自己持肯定态度,1266,6028
+person_cleaned.dta,7294,49,cfps2018edu,float64,CFPS2018个人问卷受访者已完成的最高学历,1266,6028
+person_cleaned.dta,7294,49,cfps2018eduy,float64,CFPS2018个人问卷受访者已完成的受教育年限,1266,6028
+person_cleaned.dta,7294,49,urban20,float64,基于国家统计局资料的城乡分类,1251,6043
+person_cleaned.dta,7294,49,qm1101,float64,男女分工,1251,6043
+person_cleaned.dta,7294,49,qm1102,float64,女人婚姻,1251,6043
+person_cleaned.dta,7294,49,qm1103,float64,女人子女,1251,6043
+person_cleaned.dta,7294,49,qm1104,float64,男人家务,1251,6043
+person_cleaned.dta,7294,49,cfps2020edu,float64,CFPS2020个人问卷受访者已完成的最高学历,1251,6043
+person_cleaned.dta,7294,49,cfps2020eduy,float64,CFPS2020个人问卷受访者已完成的受教育年限,1251,6043
+person_cleaned.dta,7294,49,age,float64,,7294,0
+person_cleaned.dta,7294,49,p_income,float64,,7294,0
+person_cleaned.dta,7294,49,log_income,float64,,7294,0
+person_cleaned.dta,7294,49,province,object,,7294,0
+person_cleaned_v2.dta,7840,28,pid,float64,个人ID,7840,0
+person_cleaned_v2.dta,7840,28,fid,float64,2014年家庭样本编码,7840,0
+person_cleaned_v2.dta,7840,28,provcode,float64,2014年省国标码,7840,0
+person_cleaned_v2.dta,7840,28,urban14,float64,基于国家统计局资料的城乡分类,4151,3689
+person_cleaned_v2.dta,7840,28,cfps_birthy,float64,出生年份,5507,2333
+person_cleaned_v2.dta,7840,28,cfps_gender,float64,性别,5507,2333
+person_cleaned_v2.dta,7840,28,cfps2014eduy,float64,CFPS2014个人问卷受访者已完成的受教育年限,3987,3853
+person_cleaned_v2.dta,7840,28,qc201,float64,您期望的受教育程度,7840,0
+person_cleaned_v2.dta,7840,28,income,float64,所有工作总收入,5507,2333
+person_cleaned_v2.dta,7840,28,year,float64,,7840,0
+person_cleaned_v2.dta,7840,28,urban,float64,,7840,0
+person_cleaned_v2.dta,7840,28,gender,float64,,7840,0
+person_cleaned_v2.dta,7840,28,birth_y,float64,,7840,0
+person_cleaned_v2.dta,7840,28,edu_years,float64,,7490,350
+person_cleaned_v2.dta,7840,28,edu_asp_years,float64,,7840,0
+person_cleaned_v2.dta,7840,28,p_income,float64,,7840,0
+person_cleaned_v2.dta,7840,28,urban16,float64,基于国家统计局资料的城乡分类,1356,6484
+person_cleaned_v2.dta,7840,28,cfps2016eduy,float64,CFPS2016个人问卷受访者已完成的受教育年限,1170,6670
+person_cleaned_v2.dta,7840,28,urban18,float64,2018年村居城乡分类：基于国家统计局资料定义,882,6958
+person_cleaned_v2.dta,7840,28,emp_income,float64,过去12个月所有工作（主要工作+一般工作）的税后工资性收入,2333,5507
+person_cleaned_v2.dta,7840,28,cfps2018eduy,float64,CFPS2018个人问卷受访者已完成的受教育年限,882,6958
+person_cleaned_v2.dta,7840,28,urban20,float64,基于国家统计局资料的城乡分类,775,7065
+person_cleaned_v2.dta,7840,28,cfps2020eduy,float64,CFPS2020个人问卷受访者已完成的受教育年限,775,7065
+person_cleaned_v2.dta,7840,28,urban22,float64,基于国家统计局资料的城乡分类,676,7164
+person_cleaned_v2.dta,7840,28,cfps2022eduy,float64,CFPS2022个人问卷受访者已完成的受教育年限,676,7164
+person_cleaned_v2.dta,7840,28,age,float64,,7840,0
+person_cleaned_v2.dta,7840,28,log_income,float64,,7840,0
+person_cleaned_v2.dta,7840,28,province,object,,7840,0
+provyr_panel_v3.dta,7840,42,pid,float64,个人ID,7840,0
+provyr_panel_v3.dta,7840,42,fid,float64,2014年家庭样本编码,7840,0
+provyr_panel_v3.dta,7840,42,provcode,float64,2014年省国标码,7840,0
+provyr_panel_v3.dta,7840,42,urban14,float64,基于国家统计局资料的城乡分类,4151,3689
+provyr_panel_v3.dta,7840,42,cfps_birthy,float64,出生年份,5507,2333
+provyr_panel_v3.dta,7840,42,cfps_gender,float64,性别,5507,2333
+provyr_panel_v3.dta,7840,42,cfps2014eduy,float64,CFPS2014个人问卷受访者已完成的受教育年限,3987,3853
+provyr_panel_v3.dta,7840,42,qc201,float64,您期望的受教育程度,7840,0
+provyr_panel_v3.dta,7840,42,income,float64,所有工作总收入,5507,2333
+provyr_panel_v3.dta,7840,42,year,float64,,7840,0
+provyr_panel_v3.dta,7840,42,urban,float64,,7840,0
+provyr_panel_v3.dta,7840,42,gender,float64,,7840,0
+provyr_panel_v3.dta,7840,42,birth_y,float64,,7840,0
+provyr_panel_v3.dta,7840,42,edu_years,float64,,7490,350
+provyr_panel_v3.dta,7840,42,edu_asp_years,float64,,7840,0
+provyr_panel_v3.dta,7840,42,p_income,float64,,7840,0
+provyr_panel_v3.dta,7840,42,urban16,float64,基于国家统计局资料的城乡分类,1356,6484
+provyr_panel_v3.dta,7840,42,cfps2016eduy,float64,CFPS2016个人问卷受访者已完成的受教育年限,1170,6670
+provyr_panel_v3.dta,7840,42,urban18,float64,2018年村居城乡分类：基于国家统计局资料定义,882,6958
+provyr_panel_v3.dta,7840,42,emp_income,float64,过去12个月所有工作（主要工作+一般工作）的税后工资性收入,2333,5507
+provyr_panel_v3.dta,7840,42,cfps2018eduy,float64,CFPS2018个人问卷受访者已完成的受教育年限,882,6958
+provyr_panel_v3.dta,7840,42,urban20,float64,基于国家统计局资料的城乡分类,775,7065
+provyr_panel_v3.dta,7840,42,cfps2020eduy,float64,CFPS2020个人问卷受访者已完成的受教育年限,775,7065
+provyr_panel_v3.dta,7840,42,urban22,float64,基于国家统计局资料的城乡分类,676,7164
+provyr_panel_v3.dta,7840,42,cfps2022eduy,float64,CFPS2022个人问卷受访者已完成的受教育年限,676,7164
+provyr_panel_v3.dta,7840,42,age,float64,,7840,0
+provyr_panel_v3.dta,7840,42,log_income,float64,,7840,0
+provyr_panel_v3.dta,7840,42,gini_prov,float64,,7811,29
+provyr_panel_v3.dta,7840,42,mean_inc,float64,,7811,29
+provyr_panel_v3.dta,7840,42,N_inc,float64,,7811,29
+provyr_panel_v3.dta,7840,42,asp_mean_provyr,float64,,7840,0
+provyr_panel_v3.dta,7840,42,asp_dev,float64,,7840,0
+provyr_panel_v3.dta,7840,42,asp_polar,float64,,7840,0
+provyr_panel_v3.dta,7840,42,gini_std,float64,,7811,29
+provyr_panel_v3.dta,7840,42,gini_sq,float64,,7811,29
+provyr_panel_v3.dta,7840,42,_est_ind_robust,int8,esample() from estimates store,7840,0
+provyr_panel_v3.dta,7840,42,_est_ind_provcl,int8,esample() from estimates store,7840,0
+provyr_panel_v3.dta,7840,42,provyr,float64,group(provcode year),7840,0
+provyr_panel_v3.dta,7840,42,_est_ind_provyrcl,int8,esample() from estimates store,7840,0
+provyr_panel_v3.dta,7840,42,_est_ind_dev,int8,esample() from estimates store,7840,0
+provyr_panel_v3.dta,7840,42,_est_ind_q50,int8,esample() from estimates store,7840,0
+provyr_panel_v3.dta,7840,42,_est_ind_q75,int8,esample() from estimates store,7840,0
