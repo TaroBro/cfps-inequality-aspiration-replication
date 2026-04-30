@@ -1,0 +1,41 @@
+# GitHub Publishing Steps
+
+1. Run the release checker:
+
+```bash
+python scripts/validate_release.py
+```
+
+2. Confirm ignored data files before staging:
+
+```bash
+git status --short --ignored
+```
+
+All `.dta` files and `_tmp/` contents should appear as ignored, not staged.
+
+3. Stage the public release files:
+
+```bash
+git add .gitignore README.md DATA_AVAILABILITY.md REPRODUCIBILITY.md CITATION.cff LICENSE
+git add *.do config_template.do docs metadata scripts
+```
+
+4. Review the staged files:
+
+```bash
+git status --short
+git diff --cached --stat
+```
+
+5. Commit and push:
+
+```bash
+git commit -m "Prepare CFPS replication package for public release"
+git branch -M main
+git remote add origin https://github.com/TaroBro/cfps-inequality-aspiration-replication.git
+git push -u origin main
+```
+
+Before pushing, confirm that `CITATION.cff` still matches the final repository
+URL and author information.
