@@ -3,7 +3,7 @@
 The formal workflow is intentionally short:
 
 ```stata
-do code/stata/00_master.do
+do code/stata/00_run_all.do
 ```
 
 ## Step 1: Build Analysis Data
