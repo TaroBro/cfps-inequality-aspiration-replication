@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite it and the CFPS data source."
+title: "Replication package for CFPS inequality and educational aspiration analysis"
+type: software
+authors:
+  - name: "TaroBro"
+version: "0.1.0"
+date-released: "2026-04-30"
+license: "MIT"
+repository-code: "https://github.com/TaroBro/cfps-inequality-aspiration-replication"
+references:
+  - type: data
+    title: "China Family Panel Studies (CFPS)"
+    authors:
+      - name: "Institute of Social Science Survey, Peking University"
+    doi: "10.18170/DVN/45LCSO"
+    url: "https://opendata.pku.edu.cn/dataverse/CFPS"
