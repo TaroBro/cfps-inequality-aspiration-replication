@@ -94,6 +94,9 @@ def main() -> int:
                 errors.append(f"Restricted data file is not ignored: {rel}")
             continue
 
+        if suffix == ".do" and not (rel.startswith("code/") or rel == "config_template.do"):
+            errors.append(f"Public Stata script should be under code/: {rel}")
+
         if suffix in ARCHIVE_EXTENSIONS and not ignored:
             warnings.append(f"Archive file should be reviewed before release: {rel}")
 
