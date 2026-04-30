@@ -31,7 +31,7 @@ availability statement and official CFPS access route.
 |-- config_template.do
 |-- code/
 |   |-- stata/
-|   |   |-- 00_master.do
+|   |   |-- 00_run_all.do
 |   |   |-- 01_build_analysis_data.do
 |   |   `-- 02_run_final_models.do
 |   |-- exploratory/
@@ -50,7 +50,7 @@ availability statement and official CFPS access route.
 4. From the repository root, run:
 
 ```stata
-do code/stata/00_master.do
+do code/stata/00_run_all.do
 ```
 
 5. Before depositing or updating the public repository, run:
