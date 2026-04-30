@@ -3,6 +3,10 @@
 _tmp/
 data/raw/
 data/derived/
+outputs/
+results/
+tables/
+figures/
 
 # Local machine configuration.
 config_local.do
@@ -15,6 +19,13 @@ config_local.do
 *.ster
 *_log.txt
 stata_results_*.json
+descriptive_stats_*.csv
+gini_by_province_year_*.csv
+heterogeneity_results_*.csv
+regression_*.csv
+robustness_*.csv
+v4_*.csv
+v4_key_results.txt
 
 # Manuscript drafts and local writing files are kept out of the code release.
 *.docx
