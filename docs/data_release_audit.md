@@ -14,5 +14,5 @@ public GitHub release because they are CFPS data or CFPS-derived datasets.
 | `provyr_panel_v3.dta` | 7,840 | 42 | Do not publish | Despite its name, this local file is individual-level CFPS-derived data. |
 | `_tmp/*.dta` | varies | varies | Do not publish | Temporary intermediate CFPS-derived files. |
 
-Compliant public release contents are limited to code, documentation,
-configuration templates, and schema-level metadata.
+The public release contents are limited to code, documentation, configuration
+templates, and schema-level metadata.

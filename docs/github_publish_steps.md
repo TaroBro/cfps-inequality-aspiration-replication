@@ -31,7 +31,7 @@ git diff --cached --stat
 5. Commit and push:
 
 ```bash
-git commit -m "Organize SCI-compliant CFPS replication package"
+git commit -m "Organize CFPS replication package"
 git branch -M main
 git remote add origin https://github.com/TaroBro/cfps-inequality-aspiration-replication.git
 git push -u origin main

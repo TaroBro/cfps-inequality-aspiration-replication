@@ -1,8 +1,8 @@
 # CFPS Inequality and Educational Aspiration Replication Package
 
-This repository is an SCI-style replication package for a study of provincial
-income inequality and educational aspiration dispersion using the China Family
-Panel Studies (CFPS).
+This repository contains code and documentation for a study of provincial income
+inequality and educational aspiration dispersion using the China Family Panel
+Studies (CFPS).
 
 The repository is intentionally code-first. It shares the audited analysis
 workflow, metadata, and data-access instructions, but it does not share CFPS
@@ -15,8 +15,8 @@ does not permit redistribution of CFPS data in original or modified form on
 journal websites or third-party platforms, the `.dta` files used locally are not
 included in this public repository.
 
-See [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) for the manuscript-ready data
-availability statement and official CFPS access route.
+See [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) for the data availability
+statement and official CFPS access route.
 
 ## Repository Structure
 

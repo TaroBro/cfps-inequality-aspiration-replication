@@ -8,8 +8,8 @@ derived from the China Family Panel Studies (CFPS).
 
 The CFPS Data User Agreement states that users may not distribute CFPS data in
 original or modified form on journal websites or third-party platforms. For that
-reason, uploading the `.dta` files in this directory to GitHub would not be a
-compliant open-science release.
+reason, uploading the `.dta` files in this directory to GitHub would not be an
+appropriate public release.
 
 Official sources:
 

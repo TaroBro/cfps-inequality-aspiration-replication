@@ -60,6 +60,7 @@ paths in public files, and placeholder citation metadata.
 
 ## 6. Reuse In A Journal Submission
 
-For SCI-style review, deposit this public code package and include the data
-availability statement from `DATA_AVAILABILITY.md`. Do not upload CFPS-derived
-datasets unless the CFPS data owner gives explicit redistribution permission.
+For journal submission or replication review, deposit this public code package
+and include the data availability statement from `DATA_AVAILABILITY.md`. Do not
+upload CFPS-derived datasets unless the CFPS data owner gives explicit
+redistribution permission.
